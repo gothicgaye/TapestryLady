@@ -21,7 +21,9 @@ input:checked + label[for='Shoes'] ~ .css-filters div:not([data-Shoes]),
 input:checked + label[for='headwearFabricNeck'] ~ .css-filters div:not([data-headwearFabricNeck]),
 input:checked + label[for='headwearFabricTop'] ~ .css-filters div:not([data-headwearFabricTop]),
 input:checked + label[for='bodiceUnder'] ~ .css-filters div:not([data-bodiceUnder]),
+input:checked + label[for='bodiceOver'] ~ .css-filters div:not([data-bodiceOver]),
 input:checked + label[for='skirtUnder'] ~ .css-filters div:not([data-skirtUnder]),
+input:checked + label[for='skirtOver'] ~ .css-filters div:not([data-skirtOver]),
 input:checked + label[for='sleevesUnder'] ~ .css-filters div:not([data-sleevesUnder]),
 input:checked + label[for='sleevesOver'] ~ .css-filters div:not([data-sleevesOver]),
 input:checked + label[for='waist'] ~ .css-filters div:not([data-waist]){
@@ -137,7 +139,7 @@ canvas {
 	-webkit-text-fill-color: transparent;
 }
 
-.wardrobe a {
+.wardrobe a, .wardrobe b {
 	color: #ad3f26;
 }
 
