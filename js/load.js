@@ -1,8 +1,5 @@
 //This script is inspired by Ninique's Dollmaker Script (http://minidollz.ninique.net)
 
-
-
-
 $(document).ready(function() {
 
     $('#tabContentSkin > div > .item > a').click(function() {var changeSrc = $(this).attr('href'); $('.skinArea > img').attr('src', changeSrc); return false; });

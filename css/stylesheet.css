@@ -88,6 +88,15 @@ canvas {
 	height: auto;
 }
 
+.saveButton {
+	color: white;
+	background-color: #c95140;
+	border: 0px solid;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
 /* all */
 
 .wardrobe {
