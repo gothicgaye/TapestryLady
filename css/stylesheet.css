@@ -81,6 +81,7 @@ body {
 	height: 470px;
 	width: 345px;
 	margin: 0 auto;
+	display: inline-block;
 }
 
 /* WARDROBE */
@@ -120,7 +121,7 @@ canvas {
 .wardrobe h1 {
 	width: 100px;
 	text-align:center;
-	font-family: 'UnifrakturMaguntia', cursive;
+	font-family: 'Grenze Gotisch', display;
 	font-size:25px;
 	margin:0;
 	padding: 10px;
@@ -132,7 +133,7 @@ canvas {
 
 .wardrobe h2 {
 	width: 100% !important;
-	font-family: 'UnifrakturMaguntia', cursive;
+	font-family: 'Grenze Gotisch', display;
 	text-transform: lowercase;
 	background: -webkit-linear-gradient(#252740, #F2CB83);
 	-webkit-background-clip: text;
@@ -157,7 +158,7 @@ input[type="radio"] + label {
 	color: #db8d35;
 	padding: 10px;
   
-	font-family: 'UnifrakturMaguntia', cursive;
+	font-family: 'Grenze Gotisch', display;
 	font-size:20px;
 	line-height: 40px;
 	text-transform: lowercase;
