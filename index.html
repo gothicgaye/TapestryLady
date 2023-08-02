@@ -8,8 +8,8 @@
     <link rel="icon" type="image/x-icon" href="" />
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.bunny.net">
-	<link href="https://fonts.bunny.net/css?family=arvo:400,400i,700,700i|grenze-gotisch:600|unifrakturmaguntia:400" rel="stylesheet" />
-	<!-- STYLESHEET -->
+    <link href="https://fonts.bunny.net/css?family=arvo:400,400i,700,700i|grenze-gotisch:600|unifrakturmaguntia:400" rel="stylesheet" />
+    <!-- STYLESHEET -->
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
     <!-- DESCRIPTION -->
     <meta name="description" content="A LADY'S TAPESTRY: An historical dress up game." />
@@ -51,14 +51,13 @@
             <div class="sleevesOverLeftArea"><img class="onDoll" src="assets/none.png" style="border-radius: 15px;" /></div>
 
             <div class="bodiceUnderArea"><img class="onDoll" src="assets/clothes/neckline/1/E1D3CD.png" style="border-radius: 15px;" /></div>
-			<div class="bodiceOverArea"><img class="onDoll" src="assets/none.png" style="border-radius: 15px;" /></div>
+            <div class="bodiceOverArea"><img class="onDoll" src="assets/none.png" style="border-radius: 15px;" /></div>
 
-            <div class="sleevesUnderArea"><img  class="onDoll" src="assets/clothes/sleeves/1/E1D3CD.png" style="border-radius: 15px;" /></div>
+            <div class="sleevesUnderArea"><img class="onDoll" src="assets/clothes/sleeves/1/E1D3CD.png" style="border-radius: 15px;" /></div>
             <div class="skirtUnderArea"><img class="onDoll" src="assets/clothes/skirts/1/E1D3CD.png" style="border-radius: 15px;" /></div>
-			<div class="skirtOverArea"><img class="onDoll" src="assets/none.png" style="border-radius: 15px;" /></div>
+            <div class="skirtOverArea"><img class="onDoll" src="assets/none.png" style="border-radius: 15px;" /></div>
 
             <div class="sleevesOverArea"><img class="onDoll" src="assets/none.png" style="border-radius: 15px;" /></div>
-			
 
             <div class="waistArea"><img class="onDoll" src="assets/none.png" style="border-radius: 15px;" /></div>
 
@@ -98,6 +97,7 @@
             <!--CLOTHES-->
             <div class="headwearFabricNeckArea"><img class="onDoll" src="assets/none.png" style="border-radius: 15px;" /></div>
             <div class="headwearFabricTopArea"><img class="onDoll" src="assets/none.png" style="border-radius: 15px;" /></div>
+            <div class='headwearJewelryArea'><img class='onDoll' src='assets/none.png' style='border-radius:15px'></div>
 
             <!--HAND-->
             <div class="handArea"><img class="onDoll" src="assets/none.png" /></div>
@@ -139,39 +139,42 @@
             <input type="radio" id="Shoes" name="filter-group" /><label for="Shoes">Shoes</label>
 
             <h1>bodice</h1>
-			<input type="radio" id="bodiceUnder" name="filter-group" /><label for="bodiceUnder">Under</label>
-			<input type="radio" id="bodiceOver" name="filter-group" /><label for="bodiceOver">Over</label>
-			<input type="radio" id="waist" name="filter-group" /><label for="waist">waist</label>
+            <input type="radio" id="bodiceUnder" name="filter-group" /><label for="bodiceUnder">Under</label>
+            <!--<input type="radio" id="bodiceOver" name="filter-group" /><label for="bodiceOver">Over</label>-->
+            <input type="radio" id="waist" name="filter-group" /><label for="waist">waist</label>
 
             <h1>sleeves</h1>
             <input type="radio" id="sleevesUnder" name="filter-group" /><label for="sleevesUnder">Under</label>
-            <input type="radio" id="sleevesOver" name="filter-group" /><label for="sleevesOver">Over</label>
+            <!--<input type="radio" id="sleevesOver" name="filter-group" /><label for="sleevesOver">Over</label>-->
 
             <h1>skirts</h1>
             <input type="radio" id="skirtUnder" name="filter-group" /><label for="skirtUnder">Under</label>
-			<input type="radio" id="skirtOver" name="filter-group" /><label for="skirtOver">Over</label>
+            <!--<input type="radio" id="skirtOver" name="filter-group" /><label for="skirtOver">Over</label>-->
 
             <h1>headwear</h1>
             <input type="radio" id="headwearFabricNeck" name="filter-group" /><label for="headwearFabricNeck">wrappings</label>
             <input type="radio" id="headwearFabricTop" name="filter-group" /><label for="headwearFabricTop">bands</label>
+            <input type='radio' id='headwearJewelry' name='filter-group'><label for='headwearJewelry'>crowns</label>
 
             <!---->
             <section class="tabs css-filters">
                 <div data-welcome>
                     <h2>A Lady's Tapestry</h2>
                     <p>A game by <b>DEMIURGEE</b>.</p>
-                    <p>Find me @ <a href="">Mastodon Art</a> or @ <a href="">Tumblr</a>.</p>
-                    <p>Donations @ <a href="">Ko-Fi</a>.</p>
+                    <p>Find me @ <a href="https://mastodon.art/@demiurgee" target="_blank">Mastodon Art</a> or @ <a href="https://demiurgee.tumblr.com/" target="_blank">Tumblr</a>.</p>
+                    <p>Donations @ <a href="https://ko-fi.com/demiurgee" target="_blank">Ko-Fi</a>.</p>
                     <br><br>
                     <p><u>A Lady's Tapestry</u> is a dress-up game made through HTML, Javascript and CSS that allows the player to build a medieval-inspired avatar. It is still a work in progress.</p>
                     <br><br>
-					<h2>permissions</h2>
+                    <h2>permissions</h2>
                     <p><b>★</b> The images generated by this game are allowed for <b>personal use</b> only.</p>
-					<p><b>★</b> No commercial use.</p>
-					<p><b>★</b> No use associated with NFTs or AI allowed.</p>
+                    <p><b>★</b> No commercial use.</p>
+                    <p><b>★</b> No use associated with NFTs or AI allowed.</p>
                     <br><br>
                     <h2>Current Issues</h2>
-                    <p>To be added.</p>
+                    <p><b>★</b> Chin and cheekbones options must be redone.</p>
+                    <p><b>★</b> Changes on hair top options that show the head behind.</p>
+                    <p><b>★</b> Clean previous images when clicking "Save Image".</p>
                     <br><br>
                     <h2>Recent Updates</h2>
                     <p>To be added.</p>
@@ -189,6 +192,29 @@
                 <!---->
                 <!---->
                 <!---->
+                <div data-headwearJewelry class='wrapCollapsible' id='tabContentHeadwearjewelry'>
+                    <!-- DRAWER -->
+                    <input id='collapsible-headwearJewelry1' class='toggle' type='checkbox'>
+                    <label for='collapsible-headwearJewelry1' class='lbl-toggle'><img src='assets/clothes/headwear/jewelry/1/thumbnails/906427.png' /></label>
+                    <!-- OPTIONS -->
+                    <div data-headwearJewelry class='collapsible-content'>
+                        <!-- NONE -->
+                        <div data-headwearJewelry class='item'>
+                            <a href='assets/none.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <!-- COLORS & VARIANTS -->
+                        <!-- paste -->
+                        <div style='background-color:#906427' data-headwearJewelry class='item'>
+                            <a href='assets/clothes/headwear/jewelry/1/906427.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#B87333' data-headwearJewelry class='item'>
+                            <a href='assets/clothes/headwear/jewelry/1/B87333.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#C0C0C0' data-headwearJewelry class='item'>
+                            <a href='assets/clothes/headwear/jewelry/1/C0C0C0.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                    </div>
+                </div>
                 <div data-waist class="wrapCollapsible" id="tabContentWaist">
                     <!-- DRAWER -->
                     <input id="collapsible-waist1" class="toggle" type="checkbox" />
@@ -201,17 +227,39 @@
                         </div>
                         <!-- COLORS & VARIANTS -->
                         <!--paste-->
-						<div style='background-color:#5E191E' data-waist class='item'><a href='assets/clothes/waists/1/5E191E.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-						<div style='background-color:#542A6F' data-waist class='item'><a href='assets/clothes/waists/1/542A6F.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-						<div style='background-color:#70803F' data-waist class='item'><a href='assets/clothes/waists/1/70803F.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-						<div style='background-color:#163655' data-waist class='item'><a href='assets/clothes/waists/1/163655.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-						<div style='background-color:#262722' data-waist class='item'><a href='assets/clothes/waists/1/262722.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-						<div style='background-color:#296655' data-waist class='item'><a href='assets/clothes/waists/1/296655.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-						<div style='background-color:#A53F65' data-waist class='item'><a href='assets/clothes/waists/1/A53F65.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-						<div style='background-color:#B07C30' data-waist class='item'><a href='assets/clothes/waists/1/B07C30.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-						<div style='background-color:#B51F0D' data-waist class='item'><a href='assets/clothes/waists/1/B51F0D.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-						<div style='background-color:#D37910' data-waist class='item'><a href='assets/clothes/waists/1/D37910.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-						<div style='background-color:#E1D3CD' data-waist class='item'><a href='assets/clothes/waists/1/E1D3CD.png'><img class='thumbnail' src='assets/none.png'/></a></div>
+                        <div style='background-color:#5E191E' data-waist class='item'>
+                            <a href='assets/clothes/waists/1/5E191E.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#542A6F' data-waist class='item'>
+                            <a href='assets/clothes/waists/1/542A6F.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#70803F' data-waist class='item'>
+                            <a href='assets/clothes/waists/1/70803F.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#163655' data-waist class='item'>
+                            <a href='assets/clothes/waists/1/163655.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#262722' data-waist class='item'>
+                            <a href='assets/clothes/waists/1/262722.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#296655' data-waist class='item'>
+                            <a href='assets/clothes/waists/1/296655.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#A53F65' data-waist class='item'>
+                            <a href='assets/clothes/waists/1/A53F65.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#B07C30' data-waist class='item'>
+                            <a href='assets/clothes/waists/1/B07C30.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#B51F0D' data-waist class='item'>
+                            <a href='assets/clothes/waists/1/B51F0D.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#D37910' data-waist class='item'>
+                            <a href='assets/clothes/waists/1/D37910.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#E1D3CD' data-waist class='item'>
+                            <a href='assets/clothes/waists/1/E1D3CD.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
                     </div>
                 </div>
                 <div data-sleevesUnder class="wrapCollapsible" id="tabContentSleevesunder">
@@ -221,7 +269,9 @@
                     <!-- OPTIONS -->
                     <div data-sleevesUnder class="collapsible-content">
                         <!-- NONE -->
-                        <div data-sleevesUnder class="item"><a href="assets/none.png" leftsleeve="assets/none.png"><img class="thumbnail" src="assets/none.png" /></a></div>
+                        <div data-sleevesUnder class="item">
+                            <a href="assets/none.png" leftsleeve="assets/none.png"><img class="thumbnail" src="assets/none.png" /></a>
+                        </div>
                         <!-- COLORS & VARIANTS -->
                         <!--paste-->
                         <div style='background-color:#5E191E' data-sleevesUnder class='item'>
@@ -308,8 +358,8 @@
 
                     </div>
                 </div>
-				
-				<div data-skirtOver class="wrapCollapsible" id="tabContentSkirtover">
+
+                <div data-skirtOver class="wrapCollapsible" id="tabContentSkirtover">
                     <!-- DRAWER -->
                     <input id="collapsible-skirtOver1" class="toggle" type="checkbox" />
                     <label for="collapsible-skirtOver1" class="lbl-toggle"><img src="assets/clothes/skirts/1/thumbnails/E1D3CD.png" /></label>
@@ -354,7 +404,7 @@
                         <div style='background-color:#E1D3CD' data-skirtOver class='item'>
                             <a href='assets/clothes/skirts/1/E1D3CD.png'><img class='thumbnail' src='assets/none.png' /></a>
                         </div>
-                    </div>                  
+                    </div>
                 </div>
 
                 <div data-skirtUnder class="wrapCollapsible" id="tabContentSkirtunder">
@@ -402,7 +452,7 @@
                         <div style='background-color:#E1D3CD' data-skirtUnder class='item'>
                             <a href='assets/clothes/skirts/1/E1D3CD.png'><img class='thumbnail' src='assets/none.png' /></a>
                         </div>
-                    </div>                  
+                    </div>
                 </div>
                 <div data-bodiceUnder class="wrapCollapsible" id="tabContentBodiceunder">
                     <!-- DRAWER -->
@@ -416,21 +466,43 @@
                         </div>
                         <!-- COLORS & VARIANTS -->
                         <!--paste-->
-<div style='background-color:#5E191E' data-bodiceUnder class='item'><a href='assets/clothes/neckline/1/5E191E.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#542A6F' data-bodiceUnder class='item'><a href='assets/clothes/neckline/1/542A6F.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#70803F' data-bodiceUnder class='item'><a href='assets/clothes/neckline/1/70803F.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#163655' data-bodiceUnder class='item'><a href='assets/clothes/neckline/1/163655.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#262722' data-bodiceUnder class='item'><a href='assets/clothes/neckline/1/262722.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#296655' data-bodiceUnder class='item'><a href='assets/clothes/neckline/1/296655.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#A53F65' data-bodiceUnder class='item'><a href='assets/clothes/neckline/1/A53F65.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#B07C30' data-bodiceUnder class='item'><a href='assets/clothes/neckline/1/B07C30.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#B51F0D' data-bodiceUnder class='item'><a href='assets/clothes/neckline/1/B51F0D.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#D37910' data-bodiceUnder class='item'><a href='assets/clothes/neckline/1/D37910.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#E1D3CD' data-bodiceUnder class='item'><a href='assets/clothes/neckline/1/E1D3CD.png'><img class='thumbnail' src='assets/none.png'/></a></div>
+                        <div style='background-color:#5E191E' data-bodiceUnder class='item'>
+                            <a href='assets/clothes/neckline/1/5E191E.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#542A6F' data-bodiceUnder class='item'>
+                            <a href='assets/clothes/neckline/1/542A6F.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#70803F' data-bodiceUnder class='item'>
+                            <a href='assets/clothes/neckline/1/70803F.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#163655' data-bodiceUnder class='item'>
+                            <a href='assets/clothes/neckline/1/163655.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#262722' data-bodiceUnder class='item'>
+                            <a href='assets/clothes/neckline/1/262722.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#296655' data-bodiceUnder class='item'>
+                            <a href='assets/clothes/neckline/1/296655.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#A53F65' data-bodiceUnder class='item'>
+                            <a href='assets/clothes/neckline/1/A53F65.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#B07C30' data-bodiceUnder class='item'>
+                            <a href='assets/clothes/neckline/1/B07C30.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#B51F0D' data-bodiceUnder class='item'>
+                            <a href='assets/clothes/neckline/1/B51F0D.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#D37910' data-bodiceUnder class='item'>
+                            <a href='assets/clothes/neckline/1/D37910.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#E1D3CD' data-bodiceUnder class='item'>
+                            <a href='assets/clothes/neckline/1/E1D3CD.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
                     </div>
                 </div>
-				
-				<div data-bodiceOver class="wrapCollapsible" id="tabContentBodiceover">
+
+                <div data-bodiceOver class="wrapCollapsible" id="tabContentBodiceover">
                     <!-- DRAWER -->
                     <input id="collapsible-bodiceOver1" class="toggle" type="checkbox" />
                     <label for="collapsible-bodiceOver1" class="lbl-toggle"><img src="assets/clothes/neckline/1/thumbnails/E1D3CD.png" /></label>
@@ -442,20 +514,42 @@
                         </div>
                         <!-- COLORS & VARIANTS -->
                         <!--paste-->
-<div style='background-color:#5E191E' data-bodiceOver class='item'><a href='assets/clothes/neckline/1/5E191E.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#542A6F' data-bodiceOver class='item'><a href='assets/clothes/neckline/1/542A6F.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#70803F' data-bodiceOver class='item'><a href='assets/clothes/neckline/1/70803F.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#163655' data-bodiceOver class='item'><a href='assets/clothes/neckline/1/163655.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#262722' data-bodiceOver class='item'><a href='assets/clothes/neckline/1/262722.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#296655' data-bodiceOver class='item'><a href='assets/clothes/neckline/1/296655.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#A53F65' data-bodiceOver class='item'><a href='assets/clothes/neckline/1/A53F65.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#B07C30' data-bodiceOver class='item'><a href='assets/clothes/neckline/1/B07C30.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#B51F0D' data-bodiceOver class='item'><a href='assets/clothes/neckline/1/B51F0D.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#D37910' data-bodiceOver class='item'><a href='assets/clothes/neckline/1/D37910.png'><img class='thumbnail' src='assets/none.png'/></a></div>
-<div style='background-color:#E1D3CD' data-bodiceOver class='item'><a href='assets/clothes/neckline/1/E1D3CD.png'><img class='thumbnail' src='assets/none.png'/></a></div>
+                        <div style='background-color:#5E191E' data-bodiceOver class='item'>
+                            <a href='assets/clothes/neckline/1/5E191E.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#542A6F' data-bodiceOver class='item'>
+                            <a href='assets/clothes/neckline/1/542A6F.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#70803F' data-bodiceOver class='item'>
+                            <a href='assets/clothes/neckline/1/70803F.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#163655' data-bodiceOver class='item'>
+                            <a href='assets/clothes/neckline/1/163655.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#262722' data-bodiceOver class='item'>
+                            <a href='assets/clothes/neckline/1/262722.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#296655' data-bodiceOver class='item'>
+                            <a href='assets/clothes/neckline/1/296655.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#A53F65' data-bodiceOver class='item'>
+                            <a href='assets/clothes/neckline/1/A53F65.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#B07C30' data-bodiceOver class='item'>
+                            <a href='assets/clothes/neckline/1/B07C30.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#B51F0D' data-bodiceOver class='item'>
+                            <a href='assets/clothes/neckline/1/B51F0D.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#D37910' data-bodiceOver class='item'>
+                            <a href='assets/clothes/neckline/1/D37910.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
+                        <div style='background-color:#E1D3CD' data-bodiceOver class='item'>
+                            <a href='assets/clothes/neckline/1/E1D3CD.png'><img class='thumbnail' src='assets/none.png' /></a>
+                        </div>
                     </div>
                 </div>
-				
+
                 <div data-headwearFabricTop class="wrapCollapsible" id="tabContentHeadwearfabrictop">
                     <!-- DRAWER -->
                     <input id="collapsible-headwearFabricTop1" class="toggle" type="checkbox" />
@@ -2995,17 +3089,17 @@
                             <a href="assets/body/hair/top/6/FFEAC3.png"><img class="thumbnail" src="assets/none.png" /></a>
                         </div>
                     </div>
-                    <!-- DRAWER -->
+                    <!-- DRAWER --
                     <input id="collapsible-hairTop7" class="toggle" type="checkbox" />
                     <label for="collapsible-hairTop7" class="lbl-toggle"><img src="assets/body/hair/top/7/thumbnails/C89559.png" /></label>
-                    <!-- OPTIONS -->
+                    <!-- OPTIONS --
                     <div data-hairTop class="collapsible-content">
-                        <!-- NONE -->
+                        <!-- NONE --
                         <div data-hairTop class="item">
                             <a href="assets/none.png"><img class="thumbnail" src="assets/none.png" /></a>
                         </div>
                         <!-- COLORS & VARIANTS -->
-                        <!--paste-->
+                    <!--paste--
                         <div style="background-color: #1a242c;" data-hairTop class="item">
                             <a href="assets/body/hair/top/7/1A242C.png"><img class="thumbnail" src="assets/none.png" /></a>
                         </div>

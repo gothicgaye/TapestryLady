@@ -41,5 +41,6 @@ $(document).ready(function() {
     $('#tabContentShoes > div > .item > a').click(function() { var changeSrc = $(this).attr('href'); $('.shoesArea > img').attr('src', changeSrc); return false;});
     $('#tabContentSocks > div > .item > a').click(function() { var changeSrc = $(this).attr('href'); $('.socksArea > img').attr('src', changeSrc); return false;});
 	$('#tabContentSkin > div > .item > a').click(function() {var changeSrc = $(this).attr('href'); $('.skinArea > img').attr('src', changeSrc); return false; });
+	$('#tabContentHeadwearjewelry > div > .item > a').click( function(){var changeSrc =$(this).attr('href');$('.headwearJewelryArea > img').attr('src', changeSrc); return false;});
 
 });

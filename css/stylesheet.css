@@ -26,7 +26,8 @@ input:checked + label[for='skirtUnder'] ~ .css-filters div:not([data-skirtUnder]
 input:checked + label[for='skirtOver'] ~ .css-filters div:not([data-skirtOver]),
 input:checked + label[for='sleevesUnder'] ~ .css-filters div:not([data-sleevesUnder]),
 input:checked + label[for='sleevesOver'] ~ .css-filters div:not([data-sleevesOver]),
-input:checked + label[for='waist'] ~ .css-filters div:not([data-waist]){
+input:checked + label[for='waist'] ~ .css-filters div:not([data-waist]),
+input:checked + label[for='headwearJewelry'] ~ .css-filters div:not([data-headwearJewelry]){
      display: none;
 }
  
