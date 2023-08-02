@@ -5,7 +5,7 @@ $(document).ready(function() {
   	$('#tabContentBodiceunder > div > .item > a').click( function(){var changeSrc =$(this).attr('href');$('.bodiceUnderArea > img').attr('src', changeSrc); return false;});
 	$('#tabContentBodiceover > div > .item > a').click( function(){var changeSrc =$(this).attr('href');$('.bodiceOverArea > img').attr('src', changeSrc); return false;});
 	$('#tabContentBust > div > .item > a').click( function(){var changeSrc =$(this).attr('href');$('.bustArea > img').attr('src', changeSrc); return false;});
-	$('#tabContentFaceshape > div > .item > a').click( function(){var changeSrc =$(this).attr('href');var changeMirror =$(this).attr('mirror');$('.faceShapeArea > img').attr('src', changeSrc); $('.skinArea > img').attr('src', changeMirror); return false;});
+	$('#tabContentFaceshape > div > .item > a').click( function(){var changeSrc =$(this).attr('href'); var changeMirror =$(this).attr('mirror'); var changeHand =$(this).attr('hand'); $('.faceShapeArea > img').attr('src', changeSrc); $('.skinArea > img').attr('src', changeMirror); $('.handArea > img').attr('src', changeHand); return false;});
 	$('#tabContentHairextrabraidstop > div > .item > a').click(function() { var changeSrc = $(this).attr('href'); var changeMirror = $(this).attr('mirror'); $('.hairExtraBraidsTopArea > img').attr('src', changeSrc); $('.hairExtraBraidsMirrorArea > img').attr('src', changeMirror); return false;});
 	$('#tabContentHeadwearfabrictop > div > .item > a').click( function(){var changeSrc =$(this).attr('href');$('.headwearFabricTopArea > img').attr('src', changeSrc); return false;});
 	$('#tabContentSkirtover > div > .item > a').click( function(){var changeSrc =$(this).attr('href');$('.skirtOverArea > img').attr('src', changeSrc); return false;});
@@ -44,3 +44,5 @@ $(document).ready(function() {
 	$('#tabContentHeadwearjewelry > div > .item > a').click( function(){var changeSrc =$(this).attr('href');$('.headwearJewelryArea > img').attr('src', changeSrc); return false;});
 
 });
+
+
